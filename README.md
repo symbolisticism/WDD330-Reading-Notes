@@ -2,6 +2,6 @@
 Examples showing the functionality of new concepts learned in weekly readings.
 
 ## Week 3
-[UX Design](/ux-design.html)
+[UX Design](https://symbolisticism.github.io/wdd330-reading-notes/ux-design.html)
 
-[APIs](/apis.md)
+[APIs](https://symbolisticism.github.io/wdd330-reading-notes/apis.md)
