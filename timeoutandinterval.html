@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setTimeout and setInterval Examples</title>
+  <script defer>
+    // this function gives a message to the user if they are in the site
+    // for longer than 5 seconds
+    function ask() {
+      document.getElementById("timeout").innerHTML = "What are you still doing here?"
+    }    
+    
+    let timerId = setTimeout(ask, 5000);
+    
+    // this function adds 1 to the previous number every second starting at 1
+    function increment() {
+      let number = parseInt(document.getElementById("interval"));
+      let newNumber = number++;
+      document.getElementById("interval").innerHTML = newNumber
+    }
+    
+    setTimeout(() => { increment();}, 1000); 
+  </script>
+</head>
+<body>
+  <h1>setTimeout and setInterval JavaScript Examples</h1>
+  <div id="timeout"></div>
+  <div id="interval">1</div>
+</body>
+</html>
