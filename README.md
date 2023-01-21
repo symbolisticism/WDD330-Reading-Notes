@@ -5,3 +5,5 @@ Examples showing the functionality of new concepts learned in weekly readings.
 [UX Design](https://symbolisticism.github.io/wdd330-reading-notes/ux-design.html)
 
 [APIs](https://symbolisticism.github.io/wdd330-reading-notes/apis.md)
+
+[setTimeout and setInterval](https://symbolisticism.github.io/wdd330-reading-notes/timeoutandinterval.html)
